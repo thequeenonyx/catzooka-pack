@@ -1,0 +1,34 @@
+{
+    "music_disc.minediamonds": {
+        "sounds": [
+            {
+                "name": "records/minediamonds",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.thisisminecraft": {
+        "sounds": [
+            {
+                "name": "records/thisisminecraft",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.revenge": {
+        "sounds": [
+            {
+                "name": "records/revenge",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.onesixbitoldwestversion": {
+        "sounds": [
+            {
+                "name": "records/onesixbitoldwestversion",
+                "stream": true
+            }
+        ]
+    }
+}

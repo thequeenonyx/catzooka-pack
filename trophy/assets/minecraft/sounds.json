@@ -1,0 +1,34 @@
+{
+    "music_disc.minediamondsminecraftparodyoftakeonme": {
+        "sounds": [
+            {
+                "name": "records/minediamondsminecraftparodyoftakeonme",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.thisisminecraftminecraftparodyoffireworkbykatyperryminecraftanimation": {
+        "sounds": [
+            {
+                "name": "records/thisisminecraftminecraftparodyoffireworkbykatyperryminecraftanimation",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.revengeaminecraftparodyofushersdjgotusfallininlovemusicvideo": {
+        "sounds": [
+            {
+                "name": "records/revengeaminecraftparodyofushersdjgotusfallininlovemusicvideo",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.icwxpthemeonesixbitoldwestversion": {
+        "sounds": [
+            {
+                "name": "records/icwxpthemeonesixbitoldwestversion",
+                "stream": true
+            }
+        ]
+    }
+}

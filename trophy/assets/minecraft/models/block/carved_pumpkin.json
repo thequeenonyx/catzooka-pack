@@ -1,0 +1,29 @@
+﻿{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+      "front": "minecraft:block/carved_pumpkin",
+      "side": "minecraft:block/pumpkin_side",
+      "top": "minecraft:block/pumpkin_top"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1
+        },
+        "model": "minecraft:block/custom/trophy"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 2
+        },
+        "model": "minecraft:block/custom/trophy2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "minecraft:block/custom/trophy3"
+      }
+    ]
+  }
+  
