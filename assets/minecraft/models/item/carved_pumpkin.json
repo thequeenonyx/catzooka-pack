@@ -83,6 +83,12 @@
           "custom_model_data": 13
         },
         "model": "minecraft:block/custom/trophy_horse"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 14
+        },
+        "model": "minecraft:block/custom/nurse_blahaj"
       }
     ]
   
