@@ -8,7 +8,7 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "minecraft:item/uno_reverse"
+      "model": "minecraft:item/custom/uno_reverse"
     }
   ]
 }
