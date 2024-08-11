@@ -1,8 +1,8 @@
 {
 	"__comment": "Designed by LastLife",
 	"textures": {
-		"particle": "items/custom/excalibur",
-		"texture": "items/custom/excalibur"
+		"particle": "item/custom/excalibur",
+		"texture": "item/custom/excalibur"
 	},
 	"elements": [
 		{
