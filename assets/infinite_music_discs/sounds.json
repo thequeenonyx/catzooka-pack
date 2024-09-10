@@ -1,0 +1,10 @@
+{
+    "music_disc.magicwandsixtwoonefour": {
+        "sounds": [
+            {
+                "name": "infinite_music_discs:records/magicwandsixtwoonefour",
+                "stream": true
+            }
+        ]
+    }
+}
