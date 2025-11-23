@@ -629,6 +629,13 @@
             "type": "model",
             "model": "item/coppergolemantenna"
           }
+        },
+        {
+          "when": "creakingdeer",
+          "model": {
+            "type": "model",
+            "model": "item/creakingdeer"
+          }
         }
       ]
     }
