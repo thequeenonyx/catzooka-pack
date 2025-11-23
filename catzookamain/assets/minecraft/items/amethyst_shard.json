@@ -1,0 +1,55 @@
+
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/amethyst_shard"
+    },
+    "cases": [
+      {
+        "when": "blue",
+        "model": {
+          "type": "model",
+          "model": "item/crystal_blue"
+        }
+      },
+      {
+        "when": "green",
+        "model": {
+          "type": "model",
+          "model": "item/crystal_green"
+        }
+      },
+      {
+        "when": "orange",
+        "model": {
+          "type": "model",
+          "model": "item/crystal_orange"
+        }
+      },
+      {
+        "when": "red",
+        "model": {
+          "type": "model",
+          "model": "item/crystal_red"
+        }
+      },
+      {
+        "when": "teal",
+        "model": {
+          "type": "model",
+          "model": "item/crystal_t"
+        }
+      },
+      {
+        "when": "yellow",
+        "model": {
+          "type": "model",
+          "model": "item/crystal_yellow"
+        }
+      }
+    ]
+  }
+}

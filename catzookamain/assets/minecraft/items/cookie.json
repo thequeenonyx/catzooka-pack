@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "item/cookie"
+      },
+      "cases": [
+        {
+          "when": "oreo",
+          "model": {
+            "type": "model",
+            "model": "item/oreo"
+          }
+        },
+        {
+          "when": "choc",
+          "model": {
+            "type": "model",
+            "model": "item/choccookie"
+          }
+        },
+        {
+          "when": "fortune",
+          "model": {
+            "type": "model",
+            "model": "item/fortunecookie"
+          }
+        },
+        {
+          "when": "macaroon",
+          "model": {
+            "type": "model",
+            "model": "item/macaroon"
+          }
+        },
+        {
+          "when": "bean",
+          "model": {
+            "type": "model",
+            "model": "item/bean"
+          }
+        },
+        {
+          "when": "cbatty",
+          "model": {
+            "type": "model",
+            "model": "item/candy_batty"
+          }
+        },
+        {
+          "when": "ccorn",
+          "model": {
+            "type": "model",
+            "model": "item/candy_corn"
+          }
+        },
+        {
+          "when": "cenderpop",
+          "model": {
+            "type": "model",
+            "model": "item/candy_enderpop"
+          }
+        },
+        {
+          "when": "cmidnight",
+          "model": {
+            "type": "model",
+            "model": "item/candy_midnight"
+          }
+        },
+        {
+          "when": "cskull",
+          "model": {
+            "type": "model",
+            "model": "item/candy_skull"
+          }
+        },
+        {
+          "when": "cspider",
+          "model": {
+            "type": "model",
+            "model": "item/candy_spider"
+          }
+        },
+        {
+          "when": "cwitch",
+          "model": {
+            "type": "model",
+            "model": "item/candy_witch"
+          }
+        },
+        {
+          "when": "cwitchy",
+          "model": {
+            "type": "model",
+            "model": "item/candy_witchy"
+          }
+        },
+        {
+          "when": "mobc",
+          "model": {
+            "type": "model",
+            "model": "item/mob_candy"
+          }
+        },
+        {
+          "when": "cbar",
+          "model": {
+            "type": "model",
+            "model": "item/chocolate_bar"
+          }
+        },
+        {
+          "when": "dango",
+          "model": {
+            "type": "model",
+            "model": "item/dango"
+          }
+        },
+        {
+          "when": "astro",
+          "model": {
+            "type": "model",
+            "model": "item/acookie"
+          }
+        }
+      ]
+    }
+  }

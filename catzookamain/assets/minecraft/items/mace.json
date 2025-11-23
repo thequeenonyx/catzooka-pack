@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/mace"
+    },
+    "cases": [
+      {
+        "when": "hammermace",
+        "model": {
+          "type": "model",
+          "model": "item/hammer_mace"
+        }
+      },
+      {
+        "when": "ohammer",
+        "model": {
+          "type": "model",
+          "model": "item/obsidian_hammer"
+        }
+      }
+    ]
+  }
+}

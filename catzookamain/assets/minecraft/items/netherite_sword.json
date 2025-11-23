@@ -1,0 +1,34 @@
+
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_sword"
+    },
+    "cases": [
+      {
+        "when": "skulk",
+        "model": {
+          "type": "model",
+          "model": "item/skulksw"
+        }
+      },
+      {
+        "when": "phantom",
+        "model": {
+          "type": "model",
+          "model": "item/phantomguard"
+        }
+      },
+      {
+        "when": "gsword",
+        "model": {
+          "type": "model",
+          "model": "item/galaxysword"
+        }
+      }
+    ]
+  }
+}

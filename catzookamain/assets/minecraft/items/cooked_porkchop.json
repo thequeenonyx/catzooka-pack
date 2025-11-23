@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/cooked_porkchop"
+    },
+    "cases": [
+      {
+        "when": "hotdog",
+        "model": {
+          "type": "model",
+          "model": "item/hotdog"
+        }
+      },
+      {
+        "when": "astro",
+        "model": {
+          "type": "model",
+          "model": "item/apork"
+        }
+      }
+    ]
+  }
+}

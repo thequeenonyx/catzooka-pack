@@ -1,0 +1,20 @@
+
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/pumpkin_pie"
+    },
+    "cases": [
+      {
+        "when": "taiyaki",
+        "model": {
+          "type": "model",
+          "model": "item/taiyaki"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/potion",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
+    },
+    "cases": [
+      {
+        "when": "ootea",
+        "model": {
+          "type": "model",
+          "model": "item/ootea"
+        }
+      },
+      {
+        "when": "coffee",
+        "model": {
+          "type": "model",
+          "model": "item/coffee"
+        }
+      },
+      {
+        "when": "bltea",
+        "model": {
+          "type": "model",
+          "model": "item/bltea"
+        }
+      }
+    ]
+  }
+}

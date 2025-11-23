@@ -1,0 +1,20 @@
+
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/mushroom_stew"
+    },
+    "cases": [
+      {
+        "when": "ramen",
+        "model": {
+          "type": "model",
+          "model": "item/ramen"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    },
+    "cases": [
+      {
+        "when": "reverse",
+        "model": {
+          "type": "model",
+          "model": "item/uno_reverse"
+        }
+      }
+    ]
+  }
+}

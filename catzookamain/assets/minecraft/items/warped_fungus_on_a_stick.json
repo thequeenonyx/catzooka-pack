@@ -1,0 +1,20 @@
+
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/warped_fungus_on_a_stick"
+    },
+    "cases": [
+      {
+        "when": "dice",
+        "model": {
+          "type": "model",
+          "model": "item/dice"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_pickaxe"
+    },
+    "cases": [
+      {
+        "when": "onyxpic1",
+        "model": {
+          "type": "model",
+          "model": "item/onyxpic1"
+        }
+      },
+      {
+        "when": "onyxpic2",
+        "model": {
+          "type": "model",
+          "model": "item/onyxpic2"
+        }
+      }
+    ]
+  }
+}

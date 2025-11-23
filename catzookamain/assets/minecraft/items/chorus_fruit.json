@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/chorus_fruit"
+    },
+    "cases": [
+      {
+        "when": "elvencookie",
+        "model": {
+          "type": "model",
+          "model": "item/elvencookie"
+        }
+      },
+      {
+        "when": "astro",
+        "model": {
+          "type": "model",
+          "model": "item/achorus"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+  {
+    "model": {
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "item/glistering_melon_slice"
+      },
+      "cases": [
+        {
+          "when": "catcoin",
+          "model": {
+            "type": "model",
+            "model": "item/catcoin"
+          }
+        },
+        {
+          "when": "kazuma",
+          "model": {
+            "type": "model",
+            "model": "item/kazuma"
+          }
+        }
+      ]
+    }
+  }
