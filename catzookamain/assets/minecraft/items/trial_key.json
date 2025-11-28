@@ -512,6 +512,13 @@
           }
         },
         {
+          "when": "tdisc",
+          "model": {
+            "type": "model",
+            "model": "item/trophydisc"
+          }
+        },
+        {
           "when": "mshuttle",
           "model": {
             "type": "model",
