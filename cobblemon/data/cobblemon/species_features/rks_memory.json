@@ -1,0 +1,29 @@
+{
+  "type": "choice",
+  "keys": [
+    "rks_memory"
+  ],
+  "default": "normal",
+  "choices": [
+    "fighting",
+    "flying",
+    "poison",
+    "ground",
+    "rock",
+    "bug",
+    "ghost",
+    "steel",
+    "normal",
+    "fire",
+    "water",
+    "grass",
+    "electric",
+    "psychic",
+    "ice",
+    "dragon",
+    "dark",
+    "fairy"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-memory"
+}

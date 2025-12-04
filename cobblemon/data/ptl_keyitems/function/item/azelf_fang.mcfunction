@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name='"Azelf\'s Fang"',custom_model_data=482,lore=['["",{"text":"Proof that you have completed the trial set by Azelf, the Being of Willpower that lives in Lake Valor. This item is needed to forge the Red Chain.","italic":false}]']]

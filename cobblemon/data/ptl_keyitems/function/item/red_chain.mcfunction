@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name='"Red Chain"',custom_model_data=483,lore=['["",{"text":"A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region.","italic":false}]']]

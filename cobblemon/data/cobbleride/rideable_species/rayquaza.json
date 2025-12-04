@@ -1,0 +1,52 @@
+{
+	"name": "rayquaza",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": 6.0,
+			"z": 4.0
+		},
+		"FLYING": {
+		  "x": 0,
+		  "y": -2.0,
+		  "z": 0
+		},
+		    "HOVERING": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		  }
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 1.0,
+	"waterSpeedModifier": 1.0,
+	"airSpeedModifier":1.8,
+	"forms": [
+		{
+			"name": "Mega",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -8.0,
+					"z": 4.0
+				},
+				"FLYING": {
+				  "x": 0,
+				  "y": 0.0,
+				  "z": 0
+				},
+					"HOVERING": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				  }
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier":2.0
+		}
+	]
+}

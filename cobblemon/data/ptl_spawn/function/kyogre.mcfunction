@@ -1,0 +1,8 @@
+execute at @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2,shiny=1}] run execute as @p[distance=..10] at @e[tag=kyogre_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~2 ~ minecraft:command_block{Command:"/pokespawnat ~ ~-2 ~ kyogre held_item=mega_showdown:blue_orb reversion_state=primal lvl=60 shiny"}
+execute at @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2,shiny=2..}] run execute as @p[distance=..10] at @e[tag=kyogre_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~2 ~ minecraft:command_block{Command:"/pokespawnat ~ ~-2 ~ kyogre held_item=mega_showdown:blue_orb reversion_state=primal lvl=60"}
+execute at @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2}] run execute as @p[distance=..10] at @e[tag=kyogre_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~4 ~ minecraft:command_block{Command:"/fill ~ ~ ~ ~ ~-2 ~ air"}
+execute at @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2}] run execute as @p[distance=..10] at @e[tag=kyogre_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~3 ~ minecraft:redstone_block
+execute at @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2}] run particle minecraft:firework ~ ~1 ~ 1 1 1 1 25 force
+execute at @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2}] as @p[distance=..10] as @e[type=item,nbt={Item:{"id":"mega_showdown:blue_orb",count:1}},distance=..10] run kill @s
+execute at @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2}] as @e[type=minecraft:armor_stand,tag=kyogre_pedestal,scores={pedestal=2}] run scoreboard players set @s pedestal 4
+

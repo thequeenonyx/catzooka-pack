@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:kyurem",
+	"order": 10,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "pokemans:kyurem",
+			"model": "pokemans:kyurem.geo",
+			"texture": "pokemans:textures/pokemon/kyurem/kyurem.png",
+			"layers": []
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "pokemans:textures/pokemon/kyurem/kyurem_shiny.png"
+		}
+	]
+}

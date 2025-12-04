@@ -1,0 +1,2 @@
+function ptl_spawn_check:giratina
+function ptl_spawn:giratina

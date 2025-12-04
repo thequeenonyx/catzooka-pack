@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "pokemon": "cobblemon:golbat",
+      "id": "golbat-skypillar",
+      "presets": [
+        "sky_pillar"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "48-50",
+      "weight": 3,
+      "condition": {}
+    }
+  ]
+}

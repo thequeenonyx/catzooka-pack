@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name='"Mesprit\'s Plume"',custom_model_data=481,lore=['["",{"text":"Proof that you have completed the trial set by Mesprit, the Being of Emotion that lives in Lake Verity. This item is needed to forge the Red Chain.","italic":false}]']]

@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:kyogre",
+	"order": 11,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "pokemans:kyogre",
+			"model": "pokemans:kyogre.geo",
+			"texture": "pokemans:textures/pokemon/kyogre/kyogre.png",
+			"layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "pokemans:textures/pokemon/kyogre/kyogre_emissive.png",
+              "translucent": true
+        }
+      ]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "pokemans:textures/pokemon/kyogre/kyogre_shiny.png",
+			"layers": [
+				{
+					  "name": "emissive",
+					  "emissive": true,
+					  "texture": "pokemans:textures/pokemon/kyogre/kyogre_emissive.png",
+					  "translucent": true
+				}
+			  ]
+		}
+	]
+}

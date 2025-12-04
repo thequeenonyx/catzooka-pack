@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_model_data":480},count:1}}] at @s as @e[type=item,nbt={Item:{components:{"minecraft:custom_model_data":481},count:1}},distance=..1] at @s as @e[type=item,nbt={Item:{components:{"minecraft:custom_model_data":482},count:1}},distance=..1] run function ptl_keyitems:craft/red_chain_craft

@@ -1,0 +1,4472 @@
+{
+  "target": "cobblemon:silvally",
+
+  "baseScale":1,
+  "hitbox": {
+  "width": 2,
+  "height": 3,
+    "fixed": false
+  },
+ "evolutions": [
+    {
+      "id": "Silvally_fire",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=fire",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:fire_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_water",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=water",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemonwater:_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_grass",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=grass",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:grass_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_electric",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=electric",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:electric_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_ice",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=ice",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ice_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_fighting",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=fighting",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:fighting_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_poison",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=poison",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:poison_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_ground",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=ground",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ground_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_flying",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=flying",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:flying_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_psychic",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=psychic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:psychic_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_bug",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=bug",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:bug_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_rock",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=rock",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:rock_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_ghost",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=ghost",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:ghost_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_dragon",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=dragon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dragon_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_dark",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=dark",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dark_gem"
+        }
+      ]
+    },    {
+      "id": "Silvally_steel",
+      "variant": "level_up",
+      "result": "Silvally rks_memory=steel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:steel_gem"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Bug",
+      "primaryType": "bug",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "bug-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Dark",
+      "primaryType": "dark",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "dark-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Dragon",
+      "primaryType": "dragon",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "dragon-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Electric",
+      "primaryType": "electric",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "electric-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Fairy",
+      "primaryType": "fairy",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "fairy-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Fighting",
+      "primaryType": "fighting",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "fighting-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Fire",
+      "primaryType": "fire",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "fire-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Flying",
+      "primaryType": "flying",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "flying-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Ghost",
+      "primaryType": "ghost",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "ghost-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Grass",
+      "primaryType": "grass",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "grass-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Ground",
+      "primaryType": "ground",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "ground-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Ice",
+      "primaryType": "ice",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "ice-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Poison",
+      "primaryType": "poison",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "poison-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Psychic",
+      "primaryType": "psychic",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "psychic-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Rock",
+      "primaryType": "rock",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "rock-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Steel",
+      "primaryType": "steel",
+      "abilities": [
+        "rkssystem"
+      ],
+      "evolutions": [
+        {
+          "id": "Silvally_normal",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=normal",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:normal_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fire",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fire_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_water",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=water",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemonwater:_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_grass",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=grass",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:grass_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_electric",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=electric",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:electric_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ice",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ice",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ice_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fighting",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fighting",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fighting_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_fairy",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=fairy",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:fairy_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_poison",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=poison",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:poison_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ground",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ground",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ground_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_flying",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=flying",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:flying_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_psychic",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=psychic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:psychic_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_bug",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=bug",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:bug_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_rock",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=rock",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:rock_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_ghost",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=ghost",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:ghost_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dragon",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dragon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_dark",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=dark",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dark_gem"
+            }
+          ]
+        },    {
+          "id": "Silvally_steel",
+          "variant": "level_up",
+          "result": "Silvally rks_memory=steel",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:steel_gem"
+            }
+          ]
+        }
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "steel-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Water",
+      "primaryType": "water",
+      "abilities": [
+        "rkssystem"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 95,
+        "speed": 95
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "baseExperienceYield": 285,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "water-memory"
+      ],
+      "height": 23,
+      "weight": 1005,
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.6,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

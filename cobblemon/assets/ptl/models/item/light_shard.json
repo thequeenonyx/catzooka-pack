@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated" ,
+    "textures": {
+        "layer0": "ptl:item/light_shard"
+    }
+}

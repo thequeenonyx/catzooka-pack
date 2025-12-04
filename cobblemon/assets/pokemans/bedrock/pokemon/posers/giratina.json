@@ -1,0 +1,141 @@
+{
+    "portraitScale": 0.25,
+    "portraitTranslation": [ 0, 1.4, 0 ],
+    "profileScale": 0.25,
+    "profileTranslation": [ 0, 1.4, 0 ],
+    "animations": {
+       "faint": "q.bedrock_primary('pokemans_giratina', 'faint', q.curve('one'))",
+       "cry": "q.bedrock_stateful('pokemans_giratina', 'cry')",
+       "physical": "q.bedrock_primary('pokemans_giratina', 'physical_attack', q.curve('symmetrical_wide'))",
+       "special": "q.bedrock_primary('pokemans_giratina', 'special_attack', q.curve('symmetrical_wide'))"
+     },
+    "poses": {
+      "battle-idle": {
+        "poseName": "battle-idle",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": ["bedrock(pokemans_giratina, battle_idle)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(pokemans_giratina, blink)"]
+          }
+        ]
+      },
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+        "isBattle": false,
+        "animations": [
+          "bedrock(pokemans_giratina, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(pokemans_giratina, blink)"]
+          }
+        ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [
+          "WALK"
+        ],
+        "animations": [
+          "bedrock(pokemans_giratina, ground_walk)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(pokemans_giratina, blink)"]
+          }
+        ]
+      },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [
+          "SLEEP"
+        ],
+        "animations": [
+          "bedrock(pokemans_giratina, sleep)"
+        ]
+      },
+      "swimming": {
+        "poseName": "swimming",
+        "transformTicks": 10,
+        "poseTypes": [
+          "SWIM"
+        ],
+        "animations": [
+          "bedrock(pokemans_giratina, ground_walk)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(pokemans_giratina, blink)"]
+          }
+        ]
+      },
+      "floating": {
+        "poseName": "floating",
+        "transformTicks": 10,
+        "poseTypes": [
+          "FLOAT"
+        ],
+        "animations": [
+          "bedrock(pokemans_giratina, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(pokemans_giratina, blink)"]
+          }
+        ]
+      },
+      "hovering": {
+        "poseName": "hovering",
+        "transformTicks": 10,
+        "poseTypes": [
+          "HOVER"
+        ],
+        "animations": [
+          "bedrock(pokemans_giratina, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": [
+              "bedrock(pokemans_giratina, blink)"
+            ]
+          }
+        ]
+      },
+      "flying": {
+        "poseName": "flying",
+        "transformTicks": 10,
+        "poseTypes": [
+          "FLY"
+        ],
+        "animations": [
+          "bedrock(pokemans_giratina, ground_walk)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": [
+              "bedrock(pokemans_giratina, blink)"
+            ]
+          }
+        ]
+      }
+    }
+   }

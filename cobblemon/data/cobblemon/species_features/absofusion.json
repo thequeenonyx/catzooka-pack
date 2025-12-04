@@ -1,0 +1,14 @@
+{
+  "type": "choice",
+  "keys": [
+    "absofusion"
+  ],
+  "default": "none",
+  "choices": [
+    "none",
+    "white",
+    "black"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-fusion"
+}

@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:keldeo",
+	"order": 10,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "pokemans:keldeo",
+			"model": "pokemans:keldeo.geo",
+			"texture": "pokemans:textures/pokemon/keldeo/keldeo.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "pokemans:textures/pokemon/keldeo/keldeo_shiny.png"
+		}
+	]
+}

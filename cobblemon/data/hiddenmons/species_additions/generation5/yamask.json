@@ -1,0 +1,9 @@
+{
+ "target": "cobblemon:yamask",
+ "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1.25,
+    "fixed": false
+  }
+}

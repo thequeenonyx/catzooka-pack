@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:zamazenta",
+	"order": 11,
+	"variations": [
+		{
+			"aspects": ["crowned"],
+			"poser": "pokemans:zamazenta_crown",
+			"model": "pokemans:zamazenta_crown.geo",
+			"texture": "pokemans:textures/pokemon/zamazenta/zamazenta_crown.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny","crowned" ],
+			"texture": "pokemans:textures/pokemon/zamazenta/zamazenta_crown_shiny.png"
+		}
+	]
+}

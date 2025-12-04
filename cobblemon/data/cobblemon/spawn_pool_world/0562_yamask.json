@@ -1,0 +1,49 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "yamask-10",
+            "pokemon": "yamask galarian=true",
+            "presets": [
+                "underground"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-33",
+            "weight": 20.0,
+            "condition": {
+                "maxLight": 7,
+                "neededNearbyBlocks": [
+                    "minecraft:stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "minecraft:mossy_stone_bricks"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:stone_bricks"
+                ],
+                "maxY": 60
+            }
+        },
+        {
+            "id": "yamask-12",
+            "pokemon": "yamask galarian=true",
+            "presets": [
+                "ruins"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "10-33",
+            "weight": 10.0,
+            "condition": {
+                "timeRange": "night",
+		"biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

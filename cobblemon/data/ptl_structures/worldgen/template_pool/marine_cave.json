@@ -1,0 +1,16 @@
+{
+    "name": "ptl_structures:marine_cave",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ptl_structures:marine_cave/marine_cave",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        }
+      }
+    ]
+  }

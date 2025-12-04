@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ptl_structures:sky_pillar",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 80,
+      "separation": 40,
+      "salt": 12145
+    }
+  }

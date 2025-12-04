@@ -1,0 +1,66 @@
+{
+  "target": "cobblemon:hoopa",
+
+  "baseScale":1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "evolutions": [
+    {
+      "id": "HoopaUnbound_Hoopa",
+      "variant": "level_up",
+      "result": "hoopa djinn_state=unbound",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:ender_eye"
+        }
+      ]
+    }
+  ],
+    "forms": [
+    {
+      "name": "Unbound",
+      "aspects": [
+        "unbound"
+      ],
+      "baseScale":1,
+      "evolutions": [
+        {
+          "id": "HoopaUnbound_Hoopa",
+          "variant": "level_up",
+          "result": "hoopa djinn_state=confined",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:ender_eye"
+            }
+          ]
+        }
+      ]
+    }],
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.6,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

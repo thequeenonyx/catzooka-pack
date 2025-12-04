@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "pokemon": "cobblemon:altaria",
+      "id": "altaria-skypillar",
+      "presets": [
+        "sky_pillar"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "54-60",
+      "weight": 0.6,
+      "condition": {}
+    }
+  ]
+}

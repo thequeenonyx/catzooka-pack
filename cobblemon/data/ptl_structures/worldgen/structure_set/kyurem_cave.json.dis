@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ptl_structures:kyurem_cave",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 80,
+      "separation": 40,
+      "salt": 12140
+    }
+  }

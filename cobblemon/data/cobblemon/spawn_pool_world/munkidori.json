@@ -1,0 +1,24 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "munkidori-1",
+           "pokemon": "munkidori",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "ultra-rare",
+           "level": "70-100",
+           "weight": 1.5,
+           "condition": {
+               "biomes": [
+                   "#cobblemon:is_magical"
+               ]
+           }
+       }
+   ]
+}

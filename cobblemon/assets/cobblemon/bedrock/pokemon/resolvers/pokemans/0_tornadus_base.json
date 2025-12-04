@@ -1,0 +1,30 @@
+
+{
+  "species": "cobblemon:tornadus",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "pokemans:tornadus",
+      "model": "pokemans:tornadus.geo",
+      "texture": "pokemans:textures/pokemon/tornadus/tornadus.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "pokemans:textures/pokemon/tornadus/tornadus_shiny.png"
+    },
+    {
+      "aspects": [ "therian-forme" ],
+      "poser": "pokemans:tornadus_therian",
+      "model": "pokemans:tornadus_therian.geo",
+      "texture": "pokemans:textures/pokemon/tornadus/tornadus_therian.png"
+    },
+    {
+      "aspects": [ "therian-forme","shiny" ],
+      "poser": "pokemans:tornadus_therian",
+      "model": "pokemans:tornadus_therian.geo",
+      "texture": "pokemans:textures/pokemon/tornadus/tornadus_therian_shiny.png"
+    }
+  ]
+}

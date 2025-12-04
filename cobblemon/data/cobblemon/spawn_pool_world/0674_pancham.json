@@ -1,0 +1,43 @@
+{
+      "enabled": true,
+      "neededInstalledMods": [],
+      "neededUninstalledMods": [],
+      "spawns": [
+            {
+                  "pokemon": "pancham",
+                  "presets": [
+                        "natural",
+                        "wild"
+                  ],
+                  "type": "pokemon",
+                  "context": "grounded",
+                  "bucket": "common",
+                  "level": "20-31",
+                  "weight": 7.6,
+                  "condition": {
+                        "biomes": [
+                              "#cobblemon:is_bamboo_jungle"
+                        ]
+                  },
+                  "id": "pancham-1"
+            },
+            {
+                  "pokemon": "pancham",
+                  "presets": [
+                        "natural",
+                        "wild"
+                  ],
+                  "type": "pokemon",
+                  "context": "grounded",
+                  "bucket": "rare",
+                  "level": "20-31",
+                  "weight": 7.6,
+                  "condition": {
+                        "biomes": [
+                              "#cobblemon:is_forest"
+                        ]
+                  },
+                  "id": "pancham-2"
+            }
+      ]
+}

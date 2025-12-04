@@ -1,0 +1,8 @@
+execute at @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2,shiny=1}] run execute as @p[distance=..10] at @e[tag=arceus_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~2 ~ minecraft:command_block{Command:"/pokespawnat ~ ~-2 ~ arceus lvl=70 shiny"}
+execute at @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2,shiny=2..}] run execute as @p[distance=..10] at @e[tag=arceus_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~2 ~ minecraft:command_block{Command:"/pokespawnat ~ ~-2 ~ arceus lvl=70"}
+execute at @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2}] run execute as @p[distance=..10] at @e[tag=arceus_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~4 ~ minecraft:command_block{Command:"/fill ~ ~ ~ ~ ~-2 ~ air"}
+execute at @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2}] run execute as @p[distance=..10] at @e[tag=arceus_spawn_place,distance=..30,sort=nearest,limit=1] run setblock ~ ~3 ~ minecraft:redstone_block
+execute at @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2}] run particle minecraft:firework ~ ~1 ~ 1 1 1 1 25 force
+execute at @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2}] as @p[distance=..10] as @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2}] run data modify entity @s[type=minecraft:armor_stand] DisabledSlots set value 4144959
+execute at @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2}] as @e[type=minecraft:armor_stand,tag=arceus_pedestal2,scores={pedestal=2}] run scoreboard players set @s pedestal 4
+

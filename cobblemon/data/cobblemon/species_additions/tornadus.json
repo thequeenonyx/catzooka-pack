@@ -1,0 +1,63 @@
+{
+  "target": "cobblemon:tornadus",
+
+  "baseScale":1.1,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.5,
+    "fixed": false
+  },
+  "evolutions": [
+    {
+      "id": "tornadus_therian",
+      "variant": "level_up",
+      "result": "tornadus mirror_forme=therian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:wide_lens"
+        }
+      ]
+    }
+  ],
+    "forms": [
+    {
+      "name": "Therian",
+      "aspects":["therian-forme"],
+  "evolutions": [
+    {
+      "id": "tornadus_therian_r",
+      "variant": "level_up",
+      "result": "tornadus mirror_forme=incarnate",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:wide_lens"
+        }
+      ]
+    }
+  ]
+    }],
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.6,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

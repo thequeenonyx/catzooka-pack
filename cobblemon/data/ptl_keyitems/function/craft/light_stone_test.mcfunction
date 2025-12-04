@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_model_data":488},count:4}}] at @s run function ptl_keyitems:craft/light_stone_craft

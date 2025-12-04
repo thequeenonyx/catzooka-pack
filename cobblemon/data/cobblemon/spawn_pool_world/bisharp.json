@@ -1,0 +1,24 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "bisharp-1",
+           "pokemon": "bisharp",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "rare",
+           "level": "52-79",
+           "weight": 9.69420,
+           "condition": {
+               "biomes": [
+                   "minecraft:bamboo_jungle"
+               ]
+           }
+       }
+   ]
+}

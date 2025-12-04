@@ -1,0 +1,24 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "landorus-1",
+           "pokemon": "landorus",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "ultra-rare",
+           "level": "70-100",
+           "weight": 2,
+           "condition": {"isRaining":false,
+               "biomes": [
+                   "#cobblemon:is_badlands"
+               ]
+           }
+       }
+   ]
+}

@@ -1,0 +1,66 @@
+{
+  "target": "cobblemon:keldeo",
+
+  "baseScale":1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "evolutions": [
+    {
+      "id": "keldeo_keldeor",
+      "variant": "level_up",
+      "result": "keldeo sword_form=resolute",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "secretsword"
+        }
+      ]
+    }
+  ],
+    "forms": [
+    {
+      "name": "Resolute",
+      "aspects": [
+        "resolute-form"
+      ],
+      "baseScale":1,
+      "evolutions": [
+        {
+          "id": "keldeo_keldeor",
+          "variant": "level_up",
+          "result": "keldeo sword_form=ordinary",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "secretsword"
+            }
+          ]
+        }
+      ]
+    }],
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.6,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

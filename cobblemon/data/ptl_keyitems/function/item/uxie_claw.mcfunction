@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name='"Uxie\'s Claw"',custom_model_data=480,lore=['["",{"text":"Proof that you have completed the trial set by Uxie, the Being of Knowledge that lives in Lake Acuity. This item is needed to forge the Red Chain.","italic":false}]']]

@@ -1,0 +1,15 @@
+{
+	"name": "silvally",
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.2
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 1.4,
+	"waterSpeedModifier": 1.0,
+	"forms": [
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:pawniard",
+	"order": 10,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "pokemans:pawniard",
+			"model": "pokemans:pawniard.geo",
+			"texture": "pokemans:textures/pokemon/pawniard/pawniard.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "pokemans:textures/pokemon/pawniard/pawniard_shiny.png"
+		}
+	]
+}

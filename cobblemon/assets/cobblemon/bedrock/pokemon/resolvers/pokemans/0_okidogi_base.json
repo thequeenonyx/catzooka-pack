@@ -1,0 +1,18 @@
+
+{
+  "species": "cobblemon:okidogi",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "pokemans:okidogi",
+      "model": "pokemans:okidogi.geo",
+      "texture": "pokemans:textures/pokemon/okidogi/okidogi.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "pokemans:textures/pokemon/okidogi/okidogi_shiny.png"
+    }
+  ]
+}

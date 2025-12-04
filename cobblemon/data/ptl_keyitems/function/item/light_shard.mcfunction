@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name='"Light Shard"',custom_model_data=488,lore=['["",{"text":"Obtained from Dragonspiral Tower. This item is needed to forge the Light Stone.","italic":false}]']]

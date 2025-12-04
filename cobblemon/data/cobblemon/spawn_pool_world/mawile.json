@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "pokemon": "cobblemon:mawile",
+      "id": "mawile-skypillar",
+      "presets": [
+        "sky_pillar"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "54-56",
+      "weight": 3,
+      "condition": {}
+    }
+  ]
+}

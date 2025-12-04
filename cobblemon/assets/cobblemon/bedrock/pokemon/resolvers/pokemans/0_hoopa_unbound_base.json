@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:hoopa",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": ["unbound"],
+      "poser": "pokemans:hoopa_unbound",
+      "model": "pokemans:hoopa_unbound.geo",
+      "texture": "pokemans:textures/pokemon/hoopa_unbound/hoopa_unbound.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "unbound"],
+      "texture": "pokemans:textures/pokemon/hoopa_unbound/hoopa_unbound_shiny.png"
+    }
+  ]
+}

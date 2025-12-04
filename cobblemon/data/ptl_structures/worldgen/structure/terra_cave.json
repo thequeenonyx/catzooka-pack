@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#cobblemon:is_badlands",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "start_pool": "ptl_structures:terra_cave",
+  "size": 1,
+  "start_height": {
+    "absolute": -20
+  },
+  "max_distance_from_center": 1,
+  "use_expansion_hack": false
+}

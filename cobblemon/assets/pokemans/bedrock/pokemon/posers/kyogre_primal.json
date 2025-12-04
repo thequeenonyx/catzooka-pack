@@ -1,0 +1,68 @@
+{
+  "portraitScale": 0.4,
+  "portraitTranslation": [0, 1.0, 0],
+  "profileScale": 0.34,
+  "profileTranslation": [0, 1.0, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('pokemans_kyogre_primal', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('pokemans_kyogre_primal', 'cry')",
+    "recoil": "q.bedrock_stateful('pokemans_kyogre_primal', 'recoil')",
+    "physical": "q.bedrock_primary('pokemans_kyogre_primal', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('pokemans_kyogre_primal', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('pokemans_kyogre_primal', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+       "q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)",
+        "q.bedrock('pokemans_kyogre_primal', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pokemans_kyogre_primal', 'blink')",
+        "q.bedrock_quirk('pokemans_kyogre_primal', q.array('quirk_ground_idle'), 30, 60, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+       "q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)",
+        "q.bedrock('pokemans_kyogre_primal', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pokemans_kyogre_primal', 'blink')",
+        "q.bedrock_quirk('pokemans_kyogre_primal', 'quirk_ground_idle', 20, 60, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+       "q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)",
+        "q.bedrock('pokemans_kyogre_primal', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_kyogre_primal', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+       "q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)",
+        "q.bedrock('pokemans_kyogre_primal', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_kyogre_primal', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+       "q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)",
+        "q.bedrock('pokemans_kyogre_primal', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_kyogre_primal', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('pokemans_kyogre_primal', 'sleep')"]
+    }
+  }
+}

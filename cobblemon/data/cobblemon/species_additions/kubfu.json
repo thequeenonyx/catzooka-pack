@@ -1,0 +1,60 @@
+{
+  "target": "cobblemon:kubfu",
+
+  "baseScale":1.0,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "evolutions": [
+    {
+      "id": "kubfu_urshifu",
+      "variant": "level_up",
+      "result": "urshifu wushu_style=single_strike",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "wickedblow"
+      ],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:muscle_band"
+            }
+          ]
+    },
+    {
+      "id": "kubfu_urshifurapidstrike",
+      "variant": "level_up",
+      "result": "urshifu wushu_style=rapid_strike",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "surgingstrikes"
+      ],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:expert_belt"
+            }
+          ]
+    }
+  ],
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.3,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

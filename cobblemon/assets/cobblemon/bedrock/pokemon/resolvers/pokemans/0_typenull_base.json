@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:typenull",
+    "order": 10,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "pokemans:typenull",
+            "model": "pokemans:typenull.geo",
+            "texture": "pokemans:textures/pokemon/typenull/typenull.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "pokemans:textures/pokemon/typenull/typenull_shiny.png",
+            "layers":[] 
+        }
+    ]
+}

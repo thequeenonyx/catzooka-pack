@@ -1,0 +1,7 @@
+{
+    "condition": {
+        "structures": [
+            "ptl_structures:sky_pillar"
+        ]
+  }
+}

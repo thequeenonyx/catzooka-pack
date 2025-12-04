@@ -1,0 +1,66 @@
+{
+  "target": "cobblemon:zamazenta",
+
+  "baseScale":0.9,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.5,
+    "fixed": false
+  },
+  "evolutions": [
+    {
+      "id": "zamazenta_crowned_r",
+      "variant": "level_up",
+      "result": "zamazenta behemoth_warrior=crowned",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+        "variant": "held_item",
+        "itemCondition": "cobblemon:kings_rock"
+        }
+      ]
+    }
+  ],
+    "forms": [
+    {
+      "name": "Crowned",
+      "aspects": [
+        "crowned"
+      ],
+      "baseScale":1,
+      "evolutions": [
+        {
+          "id": "zamazenta_crowned_r",
+          "variant": "level_up",
+          "result": "zamazenta behemoth_warrior=hero",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+            "variant": "held_item",
+            "itemCondition": "cobblemon:kings_rock"
+            }
+          ]
+        }
+      ]
+    }],
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.6,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name='"Azure Flute"',custom_model_data=484,lore=['["",{"text":"A flute that puts out echoing sounds that do not seem to be of this world. No one knows who made it or when.","italic":false}]']]

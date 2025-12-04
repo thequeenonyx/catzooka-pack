@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "rayquaza-1",
+           "pokemon": "rayquaza",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "ultra-rare",
+           "level": "70-100",
+           "weight": 1,
+           "condition": {
+               "isRaining": false,
+               "biomes": [
+                   "minecraft:sunflower_plains"
+               ]
+           }
+       }
+   ]
+}

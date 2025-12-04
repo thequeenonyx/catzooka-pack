@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Inventory:[{id:\"mega_showdown:flame_plate\"},{id:\"mega_showdown:splash_plate\"},{id:\"mega_showdown:zap_plate\"},{id:\"mega_showdown:meadow_plate\"},{id:\"mega_showdown:icicle_plate\"},{id:\"mega_showdown:fist_plate\"},{id:\"mega_showdown:toxic_plate\"},{id:\"mega_showdown:earth_plate\"},{id:\"mega_showdown:sky_plate\"},{id:\"mega_showdown:mind_plate\"},{id:\"mega_showdown:insect_plate\"},{id:\"mega_showdown:stone_plate\"},{id:\"mega_showdown:spooky_plate\"},{id:\"mega_showdown:draco_plate\"},{id:\"mega_showdown:dread_plate\"},{id:\"mega_showdown:iron_plate\"},{id:\"mega_showdown:pixie_plate\"}]}"
+  }
+}

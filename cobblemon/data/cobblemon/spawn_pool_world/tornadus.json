@@ -1,0 +1,24 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "tornadus-1",
+           "pokemon": "tornadus",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "surface",
+           "bucket": "ultra-rare",
+           "level": "70-100",
+           "weight": 6,
+           "condition": {"isRaining":true,
+               "biomes": [
+                   "#cobblemon:is_ocean"
+               ]
+           }
+       }
+   ]
+}

@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:flame_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:splash_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:zap_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:meadow_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:icicle_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:fist_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:toxic_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:earth_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:sky_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:mind_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:insect_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:stone_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:spooky_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:draco_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:dread_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:iron_plate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:pixie_plate",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

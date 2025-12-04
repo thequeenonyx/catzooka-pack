@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:rayquaza",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": ["mega"],
+      "poser": "pokemans:rayquaza_mega",
+      "model": "pokemans:rayquaza_mega.geo",
+      "texture": "pokemans:textures/pokemon/rayquaza_mega/megarayquaza.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "pokemans:textures/pokemon/rayquaza_mega/megarayquaza_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "mega"],
+      "texture": "pokemans:textures/pokemon/rayquaza_mega/megarayquaza_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "pokemans:textures/pokemon/rayquaza_mega/megarayquaza_emissive_shiny.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:bisharp",
+	"order": 10,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "pokemans:bisharp",
+			"model": "pokemans:bisharp.geo",
+			"texture": "pokemans:textures/pokemon/bisharp/bisharp.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "pokemans:textures/pokemon/bisharp/bisharp_shiny.png"
+		}
+	]
+}

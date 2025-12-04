@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:kyogre",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": ["primal"],
+      "poser": "pokemans:kyogre_primal",
+      "model": "pokemans:kyogre_primal.geo",
+      "texture": "pokemans:textures/pokemon/kyogre_primal/kyogreprimal.png",
+      "layers": [
+                   {
+                      "name": "kyogreprimal_line",
+                      "emissive": true,
+                      "translucent": true,
+                      "texture":"pokemans:textures/pokemon/kyogre_primal/kyogreprimal_line.png"
+                  },
+                  {
+                   "name": "emissive",
+                   "emissive": true,
+                   "translucent": true,
+                   "texture":"pokemans:textures/pokemon/kyogre_primal/kyogreprimal_emissive.png"
+                              }
+    ]
+    },
+    {
+     "aspects": [
+       "shiny","primal"
+     ],
+     "texture": "pokemans:textures/pokemon/kyogre_primal/kyogreprimal_shiny.png",
+     "layers": [
+       {
+ "name": "kyogreprimal_line",
+ "emissive": true,
+ "translucent": true,
+ "texture":"pokemans:textures/pokemon/kyogre_primal/kyogreprimal_line_shiny.png"
+      },
+      {
+       "name": "emissive",
+       "emissive": true,
+       "translucent": true,
+       "texture":"pokemans:textures/pokemon/kyogre_primal/kyogreprimal_emissive_shiny.png"
+                  }
+ ]
+   }
+  ]
+ }

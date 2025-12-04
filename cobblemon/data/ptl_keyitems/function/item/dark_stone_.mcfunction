@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name='"Dark Stone"',custom_model_data=485,lore=['["",{"text":"Zekrom\'s body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.","italic":false}]']]

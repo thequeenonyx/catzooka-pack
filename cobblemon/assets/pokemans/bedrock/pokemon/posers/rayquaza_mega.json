@@ -1,0 +1,70 @@
+{
+  "head": "head",
+  "portraitScale": 0.6,
+  "portraitTranslation": [-2.7, 3.8, 0],
+  "profileScale": 0.2,
+  "profileTranslation": [-0.3, 1.9, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('pokemans_rayquaza_mega', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_primary('pokemans_rayquaza_mega', 'cry', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('pokemans_rayquaza_mega', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('pokemans_rayquaza_mega', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('pokemans_rayquaza_mega', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["look", "q.bedrock('pokemans_rayquaza_mega', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pokemans_rayquaza_mega', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["look", "q.bedrock('pokemans_rayquaza_mega', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pokemans_rayquaza_mega', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["look", "q.bedrock('pokemans_rayquaza_mega', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_rayquaza_mega', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": ["look", "q.bedrock('pokemans_rayquaza_mega', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_rayquaza_mega', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": ["look",
+        "q.bedrock('pokemans_rayquaza_mega', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_rayquaza_mega', 'blink')"]
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('pokemans_rayquaza_mega', 'blink')"],
+      "animations": ["look", "q.bedrock('pokemans_rayquaza_mega', 'ground_idle')"
+      ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('pokemans_rayquaza_mega', 'blink')"],
+      "animations": ["look", "q.bedrock('pokemans_rayquaza_mega', 'ground_walk')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('pokemans_rayquaza_mega', 'sleep')"]
+    }
+  }
+}

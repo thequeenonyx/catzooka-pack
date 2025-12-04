@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:zacian",
+	"order": 11,
+	"variations": [
+		{
+			"aspects": ["crowned"],
+			"poser": "pokemans:zacian_crown",
+			"model": "pokemans:zacian_crown.geo",
+			"texture": "pokemans:textures/pokemon/zacian/zacian_crown.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny","crowned" ],
+			"texture": "pokemans:textures/pokemon/zacian/zacian_crown_shiny.png"
+		}
+	]
+}

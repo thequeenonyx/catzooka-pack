@@ -1,0 +1,19 @@
+{
+	"species": "cobblemon:zacian",
+	"order": 10,
+	"variations": [
+		{
+			"aspects": [],
+			"poser": "pokemans:zacian",
+			"model": "pokemans:zacian.geo",
+			"texture": "pokemans:textures/pokemon/zacian/zacian.png",
+			"layers": [
+				
+			]
+		},
+		{
+			"aspects": [ "shiny" ],
+			"texture": "pokemans:textures/pokemon/zacian/zacian_shiny.png"
+		}
+	]
+}

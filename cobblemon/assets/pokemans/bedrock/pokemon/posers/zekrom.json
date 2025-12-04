@@ -1,0 +1,70 @@
+{
+  "head": "looky",
+  "portraitScale": 1,
+  "portraitTranslation": [-0.5, 3.5, 0],
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.5, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('pokemans_zekrom', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_primary('pokemans_zekrom', 'cry', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('pokemans_zekrom', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('pokemans_zekrom', 'cry', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('pokemans_zekrom', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["look", "q.bedrock('pokemans_zekrom', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pokemans_zekrom', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["look", "q.bedrock('pokemans_zekrom', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pokemans_zekrom', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["look", "q.bedrock('pokemans_zekrom', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_zekrom', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": ["look", "q.bedrock('pokemans_zekrom', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_zekrom', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": ["look",
+        "q.bedrock('pokemans_zekrom', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('pokemans_zekrom', 'blink')"]
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('pokemans_zekrom', 'blink')"],
+      "animations": ["look", "q.bedrock('pokemans_zekrom', 'ground_walk')"
+      ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('pokemans_zekrom', 'blink')"],
+      "animations": ["look", "q.bedrock('pokemans_zekrom', 'fly')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('pokemans_zekrom', 'sleep')"]
+    }
+  }
+}

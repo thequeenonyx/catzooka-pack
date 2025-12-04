@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "giratina-1",
+            "pokemon": "giratina",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "minecraft:nether_wastes"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {ShowArms:1b,Invisible:1b,NoBasePlate:1b,DisabledSlots:63,Marker:1b}

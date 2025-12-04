@@ -1,0 +1,5 @@
+execute as @e[type=minecraft:armor_stand,tag=rayquaza_pedestal,scores={pedestal=1}] at @s as @a[distance=..50] run effect give @s minecraft:darkness 3 10 true
+execute as @e[type=minecraft:armor_stand,tag=rayquaza_pedestal,scores={pedestal=1}] at @s as @a[distance=..50] run effect give @s minecraft:slowness 3 10 true
+execute as @e[type=minecraft:armor_stand,tag=rayquaza_pedestal,scores={pedestal=1}] at @s as @a[distance=..50] run title @s times 3s 7s 3s
+execute as @e[type=minecraft:armor_stand,tag=rayquaza_pedestal,scores={pedestal=1}] at @s as @a[distance=..50] run title @s actionbar "You have passed the challenge...now come face me."
+execute as @e[type=minecraft:armor_stand,tag=rayquaza_pedestal,scores={pedestal=1}] at @s as @a[distance=..50] run scoreboard players set @e[type=minecraft:armor_stand,tag=rayquaza_pedestal,scores={pedestal=1..},sort=nearest,limit=1] pedestal 2

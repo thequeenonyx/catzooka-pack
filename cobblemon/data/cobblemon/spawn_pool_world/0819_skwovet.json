@@ -1,0 +1,41 @@
+{
+      "enabled": true,
+      "neededInstalledMods": [],
+      "neededUninstalledMods": [],
+      "spawns": [
+            {
+                  "pokemon": "skwovet",
+                  "presets": [
+                        "natural"
+                  ],
+                  "type": "pokemon",
+                  "context": "grounded",
+                  "bucket": "common",
+                  "level": "27-32",
+                  "weight": 7.6,
+                  "condition": {
+                        "biomes": [
+                              "#cobblemon:is_forest"
+                        ]
+                  },
+                  "id": "skwovet-1"
+            },
+            {
+                  "pokemon": "skwovet",
+                  "presets": [
+                        "natural"
+                  ],
+                  "type": "pokemon",
+                  "context": "grounded",
+                  "bucket": "common",
+                  "level": "29-35",
+                  "weight": 7.6,
+                  "condition": {
+                        "biomes": [
+                              "#cobblemon:is_taiga"
+                        ]
+                  },
+                  "id": "skwovet-2"
+            }
+      ]
+}
