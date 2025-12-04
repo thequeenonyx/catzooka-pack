@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "tsfitemcore:mew_dna"
+    },
+    "title": {
+      "text": "Mew Was Here"
+    },
+    "description": {
+      "translate": "Find Mew DNA in a Legendary Structure"
+    }
+  },
+  "parent": "legends_untold:find_legendary",
+  "criteria": {
+    "check_inv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tsfitemcore:mew_dna"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

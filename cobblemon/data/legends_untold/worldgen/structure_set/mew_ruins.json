@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legends_untold:mew_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 949542791,
+    "spacing": 90,
+    "separation": 30
+  }
+}

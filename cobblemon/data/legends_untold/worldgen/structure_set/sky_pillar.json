@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legends_untold:sky_pillar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 710420586,
+    "spacing": 120,
+    "separation": 25
+  }
+}

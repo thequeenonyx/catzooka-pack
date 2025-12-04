@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legends_untold:psychic_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 246138556,
+    "spacing": 50,
+    "separation": 20
+  }
+}

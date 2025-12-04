@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "moltres-1",
+            "pokemon": "moltres",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "45-70",
+            "weight": 1.5,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "isRaining": false,
+                    "isThundering": false,
+                    "minSkyLight": 8,
+                    "maxSkyLight": 15
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

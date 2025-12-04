@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:mew",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mew",
+      "model": "cobblemon:mew_fetus.geo",
+      "texture": "cobblemon:textures/fossils/mew.png",
+      "layers": []
+    }
+  ]
+}

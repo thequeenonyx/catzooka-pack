@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:big_root",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tsfitemcore:mew_dna"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fairy_feather",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:revival_herb",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:tumblestone",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:leaf_stone",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:capture_sherd",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:nostalgic_sherd",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fairy_gem",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/desert_well"
+}

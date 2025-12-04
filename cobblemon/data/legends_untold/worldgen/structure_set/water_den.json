@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legends_untold:water_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 648549185,
+    "spacing": 50,
+    "separation": 20
+  }
+}

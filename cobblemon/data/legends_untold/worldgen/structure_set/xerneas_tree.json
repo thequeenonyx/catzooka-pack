@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "legends_untold:xerneas_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 816448540,
+    "spacing": 100,
+    "separation": 35
+  }
+}

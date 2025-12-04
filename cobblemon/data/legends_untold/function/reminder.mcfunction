@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"Cobblemon Legends Untold may use other mods to work. This is a one time reminder to check the "},{"text":"Modrinth Page","underlined":true,"color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/cobblemon-legendary-structures/versions"}},{"text":" for any dependencies."}]
+tag @s add DependencyRemind

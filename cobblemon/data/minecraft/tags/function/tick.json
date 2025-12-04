@@ -1,5 +1,7 @@
 {
-    "values":[
-    "ptl_structures:tick"
+    "replace": false,
+    "values": [
+        "legends_untold:tick",
+        "ptl_structures:tick"
     ]
 }

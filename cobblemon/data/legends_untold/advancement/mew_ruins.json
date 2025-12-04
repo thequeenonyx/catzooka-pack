@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "cobblemon:pokemon_model",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:mew",
+          "aspects": [
+            "male"
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "Far, Far Away"
+    },
+    "description": {
+      "text": "Find the Faraway Ruins"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "legends_untold:find_legendary",
+  "criteria": {
+    "mew_ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "legends_untold:mew_ruins"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mew_ruins"
+    ]
+  ],
+  "rewards": {
+    "function": "legends_untold:spawn_mew"
+  },
+  "sends_telemetry_event": false
+}

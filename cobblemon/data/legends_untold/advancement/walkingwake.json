@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "cobblemon:water_gem"
+    },
+    "title": {
+      "text": "Ancient Seas"
+    },
+    "description": {
+      "text": "Encounter Walking Wake in a Tera Den"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "legends_untold:tera_dens",
+  "criteria": {
+    "water_den": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "legends_untold:water_den"
+              },
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:crying_obsidian",
+                    "minecraft:sea_lantern"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "water_den"
+    ]
+  ],
+  "rewards": {
+    "function": "legends_untold:spawn_walkingwake"
+  },
+  "sends_telemetry_event": false
+}

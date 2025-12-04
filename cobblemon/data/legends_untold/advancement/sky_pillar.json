@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": {
+      "text": "Tower of Legend"
+    },
+    "description": {
+      "text": "Find the Sky Pillar"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "legends_untold:find_legendary",
+  "criteria": {
+    "sky_pillar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "legends_untold:sky_pillar"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sky_pillar"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
