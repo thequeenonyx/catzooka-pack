@@ -643,6 +643,13 @@
             "type": "model",
             "model": "item/creakingdeer"
           }
+        },
+        {
+          "when": "cowboyhat",
+          "model": {
+            "type": "model",
+            "model": "item/cowboyhat"
+          }
         }
       ]
     }
