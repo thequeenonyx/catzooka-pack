@@ -650,6 +650,13 @@
             "type": "model",
             "model": "item/cowboyhat"
           }
+        },
+        {
+          "when": "creakingfawn",
+          "model": {
+            "type": "model",
+            "model": "item/creakingfawn"
+          }
         }
       ]
     }
