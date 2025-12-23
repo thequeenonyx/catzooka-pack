@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/crystal_yellow"
+    "layer0": "item/crystal_yellow"
   }
 }

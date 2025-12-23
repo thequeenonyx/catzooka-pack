@@ -20,6 +20,13 @@
             "type": "model",
             "model": "item/kazuma"
           }
+        },
+        {
+          "when": "darkdollar",
+          "model": {
+            "type": "model",
+            "model": "item/dark_dollar"
+          }
         }
       ]
     }

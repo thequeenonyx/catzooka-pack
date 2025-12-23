@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/apotato"
+    "layer0": "item/apotato"
   }
 }

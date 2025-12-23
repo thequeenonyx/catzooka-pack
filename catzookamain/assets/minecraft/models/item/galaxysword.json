@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/galaxysword"
+    "layer0": "item/galaxysword"
   }
 }

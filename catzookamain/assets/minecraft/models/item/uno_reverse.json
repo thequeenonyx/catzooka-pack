@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/uno_reverse"
+    "layer0": "item/uno_reverse"
   }
 }
