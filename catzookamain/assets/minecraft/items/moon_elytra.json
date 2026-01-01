@@ -3,11 +3,11 @@
     "type": "minecraft:condition",
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/moon_elytra"
+      "model": "item/moon_elytra"
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "minecraft:item/moon_elytra_broken"
+      "model": "item/moon_elytra_broken"
     },
     "property": "minecraft:broken"
   }

@@ -3,11 +3,11 @@
     "type": "minecraft:condition",
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/spamton_elytra"
+      "model": "item/spamton_elytra"
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "minecraft:item/spamton_elytra_broken"
+      "model": "item/spamton_elytra_broken"
     },
     "property": "minecraft:broken"
   }

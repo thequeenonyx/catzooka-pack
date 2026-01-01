@@ -1,0 +1,642 @@
+﻿{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "item/trial_key"
+      },
+      "cases": [
+        {
+          "when": "tminigg",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_minigame_gold"
+          }
+        },
+        {
+          "when": "tminigi",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_minigame_iron"
+          }
+        },
+        {
+          "when": "tminigc",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_minigame_copper"
+          }
+        },
+        {
+          "when": "tcake",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_cake"
+          }
+        },
+        {
+          "when": "tnetherite",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_netherite"
+          }
+        },
+        {
+          "when": "tpotato",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_potato"
+          }
+        },
+        {
+          "when": "tpotatoi",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_potato_inverted"
+          }
+        },
+        {
+          "when": "theart",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_heart"
+          }
+        },
+        {
+          "when": "tdiamond",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_diamond"
+          }
+        },
+        {
+          "when": "tdiamondi",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_iron_diamond"
+          }
+        },
+        {
+          "when": "thorse",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_horse"
+          }
+        },
+        {
+          "when": "tegg",
+          "model": {
+            "type": "model",
+            "model": "item/trophy_egg"
+          }
+        },
+        {
+          "when": "shark",
+          "model": {
+            "type": "model",
+            "model": "item/blahaj"
+          }
+        },
+        {
+          "when": "sharkp",
+          "model": {
+            "type": "model",
+            "model": "item/blahaj_pink"
+          }
+        },
+        {
+          "when": "sharkn",
+          "model": {
+            "type": "model",
+            "model": "item/nurse_blahaj"
+          }
+        },
+        {
+          "when": "bunny",
+          "model": {
+            "type": "model",
+            "model": "item/beaux"
+          }
+        },
+        {
+          "when": "capybara",
+          "model": {
+            "type": "model",
+            "model": "item/capybara"
+          }
+        },
+        {
+          "when": "clucky",
+          "model": {
+            "type": "model",
+            "model": "item/clucky"
+          }
+        },
+        {
+          "when": "mouse",
+          "model": {
+            "type": "model",
+            "model": "item/dormouse"
+          }
+        },
+        {
+          "when": "fox",
+          "model": {
+            "type": "model",
+            "model": "item/fox"
+          }
+        },
+        {
+          "when": "frog",
+          "model": {
+            "type": "model",
+            "model": "item/froge"
+          }
+        },
+        {
+          "when": "froggy",
+          "model": {
+            "type": "model",
+            "model": "item/froglin"
+          }
+        },
+        {
+          "when": "goblin",
+          "model": {
+            "type": "model",
+            "model": "item/goblin"
+          }
+        },
+        {
+          "when": "goldfish",
+          "model": {
+            "type": "model",
+            "model": "item/goldfish"
+          }
+        },
+        {
+          "when": "hampter",
+          "model": {
+            "type": "model",
+            "model": "item/hampter"
+          }
+        },
+        {
+          "when": "mammoth",
+          "model": {
+            "type": "model",
+            "model": "item/mammoth"
+          }
+        },
+        {
+          "when": "moobloom",
+          "model": {
+            "type": "model",
+            "model": "item/moobloom"
+          }
+        },
+        {
+          "when": "octoplush",
+          "model": {
+            "type": "model",
+            "model": "item/octoplush"
+          }
+        },
+        {
+          "when": "monke",
+          "model": {
+            "type": "model",
+            "model": "item/orangutan"
+          }
+        },
+        {
+          "when": "otter",
+          "model": {
+            "type": "model",
+            "model": "item/otter"
+          }
+        },
+        {
+          "when": "owl",
+          "model": {
+            "type": "model",
+            "model": "item/owl"
+          }
+        },
+        {
+          "when": "penguin",
+          "model": {
+            "type": "model",
+            "model": "item/penguin"
+          }
+        },
+        {
+          "when": "raptor",
+          "model": {
+            "type": "model",
+            "model": "item/raptor"
+          }
+        },
+        {
+          "when": "rat",
+          "model": {
+            "type": "model",
+            "model": "item/rattiam"
+          }
+        },
+        {
+          "when": "rupert",
+          "model": {
+            "type": "model",
+            "model": "item/rupert"
+          }
+        },
+        {
+          "when": "seabunny",
+          "model": {
+            "type": "model",
+            "model": "item/sea_bunny"
+          }
+        },
+        {
+          "when": "shrump",
+          "model": {
+            "type": "model",
+            "model": "item/shrump"
+          }
+        },
+        {
+          "when": "snail",
+          "model": {
+            "type": "model",
+            "model": "item/snail"
+          }
+        },
+        {
+          "when": "tiger",
+          "model": {
+            "type": "model",
+            "model": "item/tiger"
+          }
+        },
+        {
+          "when": "triceratops",
+          "model": {
+            "type": "model",
+            "model": "item/triceratops"
+          }
+        },
+        {
+          "when": "piggy",
+          "model": {
+            "type": "model",
+            "model": "item/truffles"
+          }
+        },
+        {
+          "when": "unicorn",
+          "model": {
+            "type": "model",
+            "model": "item/unicorn"
+          }
+        },
+        {
+          "when": "walrus",
+          "model": {
+            "type": "model",
+            "model": "item/walrus"
+          }
+        },
+        {
+          "when": "dragon",
+          "model": {
+            "type": "model",
+            "model": "item/whelpling"
+          }
+        },
+        {
+          "when": "siffrin",
+          "model": {
+            "type": "model",
+            "model": "item/siffrinhat"
+          }
+        },
+        {
+          "when": "eyehat",
+          "model": {
+            "type": "model",
+            "model": "item/ceaselesswatcher"
+          }
+        },
+        {
+          "when": "wardene",
+          "model": {
+            "type": "model",
+            "model": "item/wardenears"
+          }
+        },
+        {
+          "when": "aubean",
+          "model": {
+            "type": "model",
+            "model": "item/aubean"
+          }
+        },
+        {
+          "when": "autumn",
+          "model": {
+            "type": "model",
+            "model": "item/autumn"
+          }
+        },
+        {
+          "when": "bria",
+          "model": {
+            "type": "model",
+            "model": "item/bria"
+          }
+        },
+        {
+          "when": "dan",
+          "model": {
+            "type": "model",
+            "model": "item/dan"
+          }
+        },
+        {
+          "when": "dax",
+          "model": {
+            "type": "model",
+            "model": "item/dax"
+          }
+        },
+        {
+          "when": "dazey",
+          "model": {
+            "type": "model",
+            "model": "item/dazey"
+          }
+        },
+        {
+          "when": "delly",
+          "model": {
+            "type": "model",
+            "model": "item/delly"
+          }
+        },
+        {
+          "when": "elly",
+          "model": {
+            "type": "model",
+            "model": "item/elly"
+          }
+        },
+        {
+          "when": "julie",
+          "model": {
+            "type": "model",
+            "model": "item/julie"
+          }
+        },
+        {
+          "when": "moony",
+          "model": {
+            "type": "model",
+            "model": "item/moony"
+          }
+        },
+        {
+          "when": "onyx",
+          "model": {
+            "type": "model",
+            "model": "item/onyx"
+          }
+        },
+        {
+          "when": "eggonyx",
+          "model": {
+            "type": "model",
+            "model": "item/eggonyx"
+          }
+        },
+        {
+          "when": "eggmoony",
+          "model": {
+            "type": "model",
+            "model": "item/eggmoony"
+          }
+        },
+        {
+          "when": "eggbria",
+          "model": {
+            "type": "model",
+            "model": "item/eggbria"
+          }
+        },
+        {
+          "when": "eggdazey",
+          "model": {
+            "type": "model",
+            "model": "item/eggdazey"
+          }
+        },
+        {
+          "when": "eggautumn",
+          "model": {
+            "type": "model",
+            "model": "item/eggautumn"
+          }
+        },
+        {
+          "when": "leppy",
+          "model": {
+            "type": "model",
+            "model": "item/leppy"
+          }
+        },
+        {
+          "when": "4leaf",
+          "model": {
+            "type": "model",
+            "model": "item/4leaf"
+          }
+        },
+        {
+          "when": "mothman",
+          "model": {
+            "type": "model",
+            "model": "item/mothman"
+          }
+        },
+        {
+          "when": "tpotion",
+          "model": {
+            "type": "model",
+            "model": "item/trophypotion"
+          }
+        },
+        {
+          "when": "tcod",
+          "model": {
+            "type": "model",
+            "model": "item/trophycod"
+          }
+        },
+        {
+          "when": "tghast",
+          "model": {
+            "type": "model",
+            "model": "item/trophyghast"
+          }
+        },
+        {
+          "when": "tdisc",
+          "model": {
+            "type": "model",
+            "model": "item/trophydisc"
+          }
+        },
+        {
+          "when": "mshuttle",
+          "model": {
+            "type": "model",
+            "model": "item/minirocket"
+          }
+        },
+        {
+          "when": "lshuttle",
+          "model": {
+            "type": "model",
+            "model": "item/largerocket"
+          }
+        },
+        {
+          "when": "daili",
+          "model": {
+            "type": "model",
+            "model": "item/daili"
+          }
+        },
+        {
+          "when": "earth",
+          "model": {
+            "type": "model",
+            "model": "item/earth"
+          }
+        },
+        {
+          "when": "antlers",
+          "model": {
+            "type": "model",
+            "model": "item/antlers"
+          }
+        },
+        {
+          "when": "wantlers",
+          "model": {
+            "type": "model",
+            "model": "item/wantlers"
+          }
+        },
+        {
+          "when": "mars",
+          "model": {
+            "type": "model",
+            "model": "item/mars"
+          }
+        },
+        {
+          "when": "sun",
+          "model": {
+            "type": "model",
+            "model": "item/sun"
+          }
+        },
+        {
+          "when": "searth",
+          "model": {
+            "type": "model",
+            "model": "item/searth"
+          }
+        },
+        {
+          "when": "mercury",
+          "model": {
+            "type": "model",
+            "model": "item/mercury"
+          }
+        },
+        {
+          "when": "venus",
+          "model": {
+            "type": "model",
+            "model": "item/venus"
+          }
+        },
+        {
+          "when": "saturn",
+          "model": {
+            "type": "model",
+            "model": "item/saturn"
+          }
+        },
+        {
+          "when": "uranus",
+          "model": {
+            "type": "model",
+            "model": "item/uranus"
+          }
+        },
+        {
+          "when": "neptune",
+          "model": {
+            "type": "model",
+            "model": "item/neptune"
+          }
+        },
+        {
+          "when": "pluto",
+          "model": {
+            "type": "model",
+            "model": "item/pluto"
+          }
+        },
+        {
+          "when": "jupiter",
+          "model": {
+            "type": "model",
+            "model": "item/jupiter"
+          }
+        },
+        {
+          "when": "coppanten",
+          "model": {
+            "type": "model",
+            "model": "item/coppergolemantenna"
+          }
+        },
+        {
+          "when": "creakingdeer",
+          "model": {
+            "type": "model",
+            "model": "item/creakingdeer"
+          }
+        },
+        {
+          "when": "cowboyhat",
+          "model": {
+            "type": "model",
+            "model": "item/cowboyhat"
+          }
+        },
+        {
+          "when": "creakingfawn",
+          "model": {
+            "type": "model",
+            "model": "item/creakingfawn"
+          }
+        }
+      ]
+    }
+  }

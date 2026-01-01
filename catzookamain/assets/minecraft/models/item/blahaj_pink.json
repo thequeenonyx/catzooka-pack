@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/blahaj_pink",
-		"particle": "block/blahaj_pink"
+		"0": "item/blahaj_pink",
+		"particle": "item/blahaj_pink"
 	},
 	"elements": [
 		{
