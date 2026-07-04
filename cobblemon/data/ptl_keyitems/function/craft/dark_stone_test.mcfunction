@@ -1,1 +1,0 @@
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_model_data":486},count:4}}] at @s run function ptl_keyitems:craft/dark_stone_craft

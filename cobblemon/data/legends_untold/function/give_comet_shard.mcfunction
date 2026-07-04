@@ -1,1 +1,0 @@
-give @p nether_star[item_name='"Comet Shard"',lore=['"Can be used as a nether star in recipes"'],custom_model_data=1110000] 1

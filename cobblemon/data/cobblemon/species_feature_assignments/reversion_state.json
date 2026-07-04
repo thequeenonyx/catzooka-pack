@@ -1,9 +1,0 @@
-{
-  "pokemon": [
-    "kyogre",
-    "groudon"
-  ],
-  "features": [
-    "reversion_state"
-  ]
-}

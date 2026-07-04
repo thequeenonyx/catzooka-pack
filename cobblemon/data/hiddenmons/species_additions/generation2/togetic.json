@@ -1,9 +1,0 @@
-{
- "target": "cobblemon:togetic",
- "baseScale": 1,
-  "hitbox": {
-    "width": 0.5,
-    "height": 1.5,
-    "fixed": false
-  }
-}

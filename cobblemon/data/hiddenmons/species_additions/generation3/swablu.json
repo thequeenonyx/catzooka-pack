@@ -1,9 +1,0 @@
-{
- "target": "cobblemon:swablu",
- "baseScale": 1,
-  "hitbox": {
-    "width": 0.5,
-    "height": 0.75,
-    "fixed": false
-  }
-}

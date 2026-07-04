@@ -1,2 +1,0 @@
-function ptl_spawn_check:groudon
-function ptl_spawn:groudon

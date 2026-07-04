@@ -1,4 +1,0 @@
-function ptl_spawn_check:dialga
-function ptl_spawn:dialga
-function ptl_spawn_check:palkia
-function ptl_spawn:palkia

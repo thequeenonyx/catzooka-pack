@@ -1,9 +1,0 @@
-{
- "target": "cobblemon:roaringmoon",
- "baseScale": 1,
-  "hitbox": {
-    "width": 3,
-    "height": 4,
-    "fixed": false
-  }
-}

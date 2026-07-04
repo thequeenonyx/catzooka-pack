@@ -1,9 +1,0 @@
-{
- "target": "cobblemon:skwovet",
- "baseScale": 0.7,
-      "hitbox": {
-            "width": 0.7,
-            "height": 0.8,
-            "fixed": false
-  }
-}

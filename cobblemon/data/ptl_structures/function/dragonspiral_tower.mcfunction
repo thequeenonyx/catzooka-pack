@@ -1,4 +1,0 @@
-function ptl_spawn_check:zekrom
-function ptl_spawn:zekrom
-function ptl_spawn_check:reshiram
-function ptl_spawn:reshiram

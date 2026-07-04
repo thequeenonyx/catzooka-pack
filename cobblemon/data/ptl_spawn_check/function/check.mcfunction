@@ -1,1 +1,0 @@
-execute as @e[nbt={Pokemon:{Species:"cobblemon:buizel"}}] as @e[nbt={Pokemon:{Species:"cobblemon:overqwil"}}] as @e[nbt={Pokemon:{Species:"cobblemon:mantyke"}}] run tellraw @a {"text":" mystery spawn has checked!","color":"yellow"}

@@ -1,3 +1,0 @@
-function ptl_spawn_check:arceus
-function ptl_spawn_check:arceus2
-function ptl_spawn:arceus
